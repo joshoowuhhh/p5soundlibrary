@@ -9,9 +9,10 @@ function preload() {
  }
 
 function setup() {
-  createCanvas(600, 600);
+  createCanvas(400, 400);
   slider = createSlider(0, 1, 0.5, 0.01);
-  song.play()
+  song.play();
+
 }
 
 
