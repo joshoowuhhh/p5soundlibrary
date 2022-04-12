@@ -1,4 +1,4 @@
-var song;
+let song;
 var spiderman;
 var slider;
 
