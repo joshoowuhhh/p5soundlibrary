@@ -1,9 +1,16 @@
+var song;
+
+function preload() {
+  song = loadSound("flip.mp3");
+
+}
+
 function setup() {
   createCanvas(600, 600);
-  song = loadSound("file.mp3");
   song.play();
+    
 }
 
 function draw() {
-  background(220);
+  background(0);
 }
